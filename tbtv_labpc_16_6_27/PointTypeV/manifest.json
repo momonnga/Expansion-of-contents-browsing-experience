@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "TBTVNPCMONverLocal",
+  "version" : "1",
+  "content_scripts":[
+    {
+      "matches" : [ "http://*/*"],
+      "js": ["test3.js","div.js","replay.js","btn.js"],
+      "css":["contentScript.css"],
+      "run_at" : "document_end"
+    }
+  ]
+}

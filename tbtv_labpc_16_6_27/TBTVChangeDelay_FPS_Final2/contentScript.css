@@ -1,0 +1,18 @@
+#can{
+	position:fixed;
+	left:0px;
+	top:0px;
+	border:solid 1px #000;
+		z-index: 2147483648;
+	display:inline!important;
+}
+#canR{
+	position:fixed;
+	left:0px;
+	top:0px;
+	border:solid 1px #000;
+	 z-index: 2147483649;
+	 display:inline!important;
+}
+canvas:-webkit-full-screen-ancestor>:not(:-webkit-full-screen-ancestor):not(:-webkit-full-screen){
+}

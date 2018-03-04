@@ -1,0 +1,14 @@
+#can{
+	position:fixed;
+	left:0px;
+	top:0px;
+	border:solid 1px #000;
+		z-index: 9999;
+}
+#canR{
+	position:fixed;
+	left:0px;
+	top:0px;
+	border:solid 1px #000;
+	z-index: 10002;
+}
